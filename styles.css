@@ -1,0 +1,26 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+}
+
+.parent {
+   background-color: #23424a;
+   /* padding:50px; */
+   /* width: 900px; */
+   margin: 0 auto;
+   width: 80%;
+   /* overflow: hidden; */
+   /* height: 300px; */
+   color: white;
+   padding: 5em; /*font size * 5*/
+}
+
+/* .child{
+   background-color: #38cfd9;
+   height: 350px;
+   /* width: 750px; */
+   /* width: 50%;
+} */
