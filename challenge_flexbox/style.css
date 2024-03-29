@@ -44,17 +44,37 @@ h1 {
     display: flex;
 
     /* can't use yet */
-    gap: 100px;
+    /* gap: 100px; */
     text-align: center;
 }
 
-.container .row h2 {
+/* .container .row h2 {
     color: #87629A;
-}
+} */
 
 .col {
     /* these are now flex items */
     width: 100%;
+}
+
+/*this was introduced*/
+.col + .col {
+    margin-left: 30px;
+    
+}
+
+.three-col .row h2{
+    color: #87629A;
+}
+
+.three-col {
+    padding: 3em 0;
+}
+
+.two-col {
+    background-color: #136C72;
+    color: white;
+    padding: 3em 0;
 }
 
 .hero {
@@ -87,12 +107,8 @@ h1 {
     opacity: .75; 
 }
 
-.zero .row {
-    display: flex;
-    color: white;
-    justify-content: space-around;
-}
 
-.zero {
-    background-color: #136C72;
-}
+    /* display: flex;
+
+    justify-content: space-around; */
+
