@@ -97,19 +97,26 @@ h1 {
     text-align: center;
     color: white;
     background-color: #136C72;
-    padding: 3em 2em;
+    /* padding: 3em 2em; */
 }
 .left__sidebar p{
     color: #3A3A3A;
 }
 .left__heading {
-    color: #136C72;
+    color: #87629A;
 }
-
+.left__sidebar {
+    /* width: 62%; */
+}
 .sidebar p, .left__sidebar p {
     line-height: 1.4;
 }
 
 .sidebar {
     margin-left: 30px;
+    /* width: 32%; */
+    padding: 1em;
+}
+.main {
+    margin-top: 1em;
 }
