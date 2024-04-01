@@ -1,21 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <div class="hero">
-      <div class="container">
-        <div class="hero_text">
-          <h1>Responsive layouts don't have to be a struggle</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, ea fuga? Fuga sed debitis, libero aliquid nisi illum nobis perspiciatis, ad inventore eius architecto magnam animi veritatis facilis laboriosam incidunt.</p>
-          <a href="#" class="btn">I want to learn</a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conquering Rsponsive Layouts</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#">home</a></li>
+        <li class="nav__item"><a href="#">about</a></li>
+        <li class="nav__item"><a href="#">contact</a></li>
+        <li class="nav__item"><a href="#">sign in</a></li>
+        <li class="nav__item"><a href="#">sign up</a></li>
+      </ul>
+    </nav>
+  </div>
+  </header>
+
+    <section class="hero">
+        <div class="container row">
+            <div class="hero__text col">
+                <h1>Responsive layouts don’t have to be a struggle</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <a href="#" class="btn">I want to learn</a>
+            </div>
+            <img class src="./img/hero-img.jpg" class="hero__img" alt="image">
         </div>
-      </div>
-    </div>
-  </body>
+      </section> 
+
+    <main class="container row main">
+
+        <!-- primary-content -->
+        <section class="left__sidebar"> 
+            <!-- section-title  -->
+            <h2 class="left__heading">Quality designs made custom, on demand, just for you</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </section>
+
+        <aside class="sidebar">
+            <h2>Cheap</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+            </p>
+
+            <h2>Quick</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+            </p>
+
+            <h2>Quality</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </aside>
+
+    </main>
+
+    
+
+</body>
 </html>
