@@ -1,0 +1,23 @@
+:root {
+   --primary-color: #F3EED9;
+   --secondary-color: #824936;
+   --tertiary-color: #222C2A;
+}
+
+@font-face {
+   font-family: 'Roboto Light';
+   src: url();
+}
+@font-face {
+   font-family: 'Playfair Display';
+   src: url();
+}
+
+@font-face {
+   font-family: 'Roboto Regular';
+   src: url();
+}
+/* 1 | Roboto Light font-size: 18px;
+2 | Playfair Display Black font-size: 60px;
+3 | Playfair Display Black font-size: 36px;
+4 | Roboto Regular font-size: 21px; */
