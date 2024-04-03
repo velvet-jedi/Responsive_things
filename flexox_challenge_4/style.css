@@ -1,5 +1,6 @@
 * {
    margin: 0;
+   line-height: 1.5;
    padding: 0;
 }
 :root {
@@ -36,10 +37,8 @@
    text-align: center;
    margin: auto auto;
    max-width: 40%;
-   /* border: 1px solid red; */
 }
 .container > * {
-   /* border: 1px solid red; */
    padding: 0.3em;
 }
 .hero__subtitle {
@@ -60,23 +59,21 @@
 .row {
    display: flex;
    margin: 0 auto;
-   /* border: 1px solid red; */
    max-width: 80vw;
 }
 
 .col {
-   /* border: 1px solid black; */
    margin: 1.2em;
    font-family: 'Roboto';
    font-size: 21px;
+   width: 50%;
 }
 
 .second {
-   line-height: 1.5;
-   height: 25vh;
+   
+   height: 30vh;
    display: flex;
    flex-direction: column;
-   border: 1px solid green;
    justify-content: center;
 }
 .second h2 {
@@ -87,4 +84,57 @@
    color: #824936;
 }
 
+.third {
+   background-color: #222C2A;
+   height: 30vh;
+   color:#F3EED9;
+   display: flex;
+}
 
+.third .row  {
+   justify-content: space-between;  
+   align-self: center;
+}
+.third h2 {
+   font-family: 'Playfair Display';
+   font-size: 36px;
+   margin-bottom: 0.25em;
+}
+.text p {
+   font-family: 'Roboto';
+   font-size: 21px;
+}
+
+img {
+   max-width: 100%;
+   display: inline;
+   border: none;
+}
+
+
+.fourth {
+   background-color: #824936;
+   height: 30vh;
+   color:#F3EED9;
+   display: flex;
+}
+
+.fourth .row  {
+   justify-content: space-between;  
+   align-self: center;
+}
+.fourth h2 {
+   font-family: 'Playfair Display';
+   font-size: 36px;
+   margin-bottom: 0.25em;
+}
+.text p {
+   font-family: 'Roboto';
+   font-size: 21px;
+}
+
+img {
+   max-width: 100%;
+   display: inline;
+   border: none;
+}
