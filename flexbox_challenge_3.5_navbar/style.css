@@ -92,7 +92,6 @@ header {
   align-items: flex-start;
   flex-grow: 1;
   flex-shrink: 1;
-  
 }
 .logo {
   /* border: 2px solid yellow; */
@@ -153,7 +152,6 @@ header {
 .nav__item + .nav__item{
    /* margin: 2em; */
    margin-left: 1.5em;
-   
 }
 
 .sidebar {
@@ -162,4 +160,17 @@ header {
   text-align: center;
   color: #fff;
   background-color: #136c72;
+}
+
+@media (max-width:700px ) {
+  .row{
+    display: block;
+  }
+
+  .hero__img, .hero__text, .primary-content, .sidebar {
+    width: 100%;
+  }
+  .hero__img {
+    margin-top: 2em;
+  }
 }
