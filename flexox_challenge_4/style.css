@@ -83,7 +83,6 @@ section {
    padding: 0.3em;
 }
    
-
 .row {
    display: flex;
    margin: 0 auto;
@@ -144,7 +143,6 @@ section {
    margin-bottom: 0.25em;
 }
 .text p {
-   
    font-size: 21px;
 }
 */
@@ -159,7 +157,6 @@ section {
    color:#F3EED9;
    display: flex;
 }
-
 .fourth .row  {
    justify-content: space-between;  
    align-self: center;
