@@ -11,6 +11,7 @@
 
 *, *::before, *::after {
     box-sizing: border-box;
+    user-select: none;
 }
 
 body {
@@ -197,21 +198,31 @@ header {
 
 @media (min-width: 800px) {
 
-    
+    .nav__list--primary {
+        margin: 0 auto;
+    }
     .nav-toggle {
         display: none;
+    }
+
+    .nav__item {
+        padding: 0.21em 1em 0.21em 0;
+  font-size: 1em;
     }
 
     .nav {
         visibility: visible;
         display: flex;
         height: auto;
-
+        margin-top: -1em;
 
       justify-content: space-between;
         align-items: flex-start;
         flex-grow: 1;
-  flex-shrink: 1;
+        flex-shrink: 1;
+    }
+    .nav__list {
+        display: flex;
     }
 
     .row {
@@ -221,6 +232,10 @@ header {
     }
 
     .hero__text {
+        .row {
+            display: flex;
+            justify-content: space-between;
+          }
         width: 62%;
     }
     
