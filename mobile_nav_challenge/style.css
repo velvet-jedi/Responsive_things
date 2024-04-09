@@ -126,12 +126,13 @@ header {
     visibility: hidden;
     height: 0;
     position: absolute;
-
+    font-size: 1rem;
 }
 .nav--visible .nav__item {
         color: white;
-        margin-bottom: 1em;
+        margin-top: 0.85em;
         font-size: 1em;
+        
    }
 
 .nav__link {
@@ -139,19 +140,23 @@ header {
     color: white;
     text-transform: uppercase;
 }
-.nav__link:hover {
+.nav__link:hover,
+.nav__link:focus {
     opacity: 0.75;
   }
 .nav__link--button {
     background: #fff;
     color: #136c72;
-    padding: 0.25em 1em;
+    padding: 0.25em 0.75em;
     border-radius: 10em;
 }
 .nav__list {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+.nav__list--primary {
+    margin-bottom: 2em;
 }
 .nav--visible {
     visibility: visible;
@@ -199,30 +204,31 @@ header {
 @media (min-width: 800px) {
 
     .nav__list--primary {
-        margin: 0 auto;
+        margin: auto auto;
     }
     .nav-toggle {
         display: none;
     }
 
     .nav__item {
-        padding: 0.21em 1em 0.21em 0;
+        
   font-size: 1em;
+  margin: 0 0 0 1.5em;
     }
 
     .nav {
         visibility: visible;
         display: flex;
         height: auto;
-        margin-top: -1em;
-
-      justify-content: space-between;
-        align-items: flex-start;
-        flex-grow: 1;
-        flex-shrink: 1;
+        
+        position: relative;
+      justify-content: flex-end;
+        align-items: center;
+        
     }
     .nav__list {
         display: flex;
+        margin: 0;
     }
 
     .row {
